@@ -1,3 +1,5 @@
+//1. Se agrega metodo a interface
+//2. Se implementa interface
 module Workshop {
     interface IPersona {
         nombre: string;

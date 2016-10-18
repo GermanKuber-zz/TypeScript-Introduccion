@@ -1,3 +1,4 @@
+//1 - Se agrega Interface Con tipos
 interface IPersona {
     nombre: string;
     apellido: string;

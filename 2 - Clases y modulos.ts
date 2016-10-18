@@ -1,3 +1,6 @@
+//1. Se agrega modulo
+//2. Se exporta funcion
+//3. Se exporta clase
 module Workshop {
     interface IPersona {
         nombre: string;
