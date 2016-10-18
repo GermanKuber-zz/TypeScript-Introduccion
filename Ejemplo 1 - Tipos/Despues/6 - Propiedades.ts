@@ -1,4 +1,7 @@
 //Playground
+//parametros opcionales
+//get y set
+//static
 class Point {
     x: number;
     y: number;
@@ -9,16 +12,8 @@ class Point {
     get suma() {
         return this.x + this.y;
     }
-    static InPoint = new Point(1, 34);
+    static InPoint = new Point(1,34);
 }
-
-class Point3D extends Point {
-
-    constructor(public x: number = 2,public   y: number = 9,public  z: number = 2) {
-        super(x, y);        
-    }
-}
-
 
 var point = new Point(25, 76);
 

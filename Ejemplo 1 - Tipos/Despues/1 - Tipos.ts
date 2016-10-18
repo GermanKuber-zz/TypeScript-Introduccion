@@ -12,7 +12,7 @@ function procesar(param: IPersona) {
     return calc;
 }
 
-var resultado = procesar(<IPersona>{
+var resultado = procesar({
     nombre: "Nombre",
     apellido: "Apellido",
     edad: 28
