@@ -1,0 +1,1 @@
+window.onmouseenter = function (e) { console.log(e.clientX) };
