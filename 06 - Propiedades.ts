@@ -3,11 +3,9 @@
 //get y set
 //static
 class Point {
-    x: number;
-    y: number;
-    constructor(x: number = 2, y: number = 9) {
-        this.x = x;
-        this.y = y;
+
+    constructor(public x: number = 2, public y: number = 9) {
+
     }
     get suma() {
         return this.x + this.y;
