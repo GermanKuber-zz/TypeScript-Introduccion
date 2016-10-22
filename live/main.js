@@ -1,7 +1,8 @@
 function procesar(param){
-    param.name = "Primer Nombre";
+    param.nombe = "Primer Nombre";
     var calc = param + param;
     console.log(calc);
     return calc;
 }
+
 procesar("Mensaje");
