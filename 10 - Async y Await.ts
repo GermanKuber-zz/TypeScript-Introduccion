@@ -4,13 +4,14 @@ async function main() {
 
 async function ping() {
     for (var i = 0; i < 10; i++) {
-        await delay(300);
+        await servicioRemoto(300);
         console.log("ping");
     }
 }
 
-function delay(ms: number) {
+function servicioRemoto(ms: number) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 main();
+console.log('Final del programa!!!');
