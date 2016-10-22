@@ -5,9 +5,9 @@
            	"name": "Launch TypeScript",
 			"type": "node",
 			"request": "launch",
-			"program": "${workspaceRoot}/Ejemplo 1 - Tipos/Despues/main.2.ts",
+			"program": "${workspaceRoot}/live/main.ts",
 			"sourceMaps": true,
-			"outDir": "${workspaceRoot}/Ejemplo 1 - Tipos/Despues/"
+			"outDir": "${workspaceRoot}/live/js"
         },
         {
             "name": "Launch",
